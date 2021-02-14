@@ -1,0 +1,16 @@
+{
+    "ignore_list": null,
+    "load_path": null,
+    "encoder_learning_rate": 0.005,
+    "encoder_weight_decay": 1e-5,
+    "validation_fraction": 0.2,
+    "batch_size": 100,
+    "discount": 0.9,
+    "plot_dataset_examples": false,
+    "plot_prediction_examples": false,
+    "plot_results": false,
+    "num_training_steps": 20000,
+    "device": "cuda:0",
+    "model_load_path": null,
+    "model_save_path": null
+}

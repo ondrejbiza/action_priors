@@ -1,0 +1,32 @@
+{
+    "env_config": {
+        "workspace": [[0.35, 0.65], [-0.15, 0.15], [0, 0.50]],
+        "max_steps": 20,
+        "obs_size": 90,
+        "fast_mode": true,
+        "action_sequence": "xyrp",
+        "render": false,
+        "num_objects": 1,
+        "random_orientation": false,
+        "reward_type": "sparse",
+        "simulate_grasp": true,
+        "pick_rot": true,
+        "place_rot": false,
+        "perfect_grasp": false,
+        "perfect_place": false,
+        "scale": 1.0,
+        "robot": "kuka",
+        "workspace_check": "point",
+        "in_hand_mode": "raw",
+        "num_random_objects": 0,
+        "goal_string": null,
+        "no_additional_objects": true,
+        "gen_blocks": 4,
+        "gen_bricks": 2,
+        "gen_triangles": 1,
+        "gen_roofs": 1,
+        "get_custom_labels": false,
+        "custom_label_goals": null,
+        "check_roof_upright": true
+    }
+}

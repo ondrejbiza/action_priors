@@ -1,0 +1,18 @@
+{
+    "dataset_load_path": null,
+    "validation_fraction": 0.2,
+    "batch_size": 32,
+    "device": "cuda:1",
+    "learning_rate": 0.001,
+    "weight_decay": 0.00001,
+    "num_training_steps": 1000,
+    "plot_results": false,
+    "plot_dataset_examples": false,
+    "plot_prediction_examples": false,
+    "validation_freq": 500,
+    "collect_data_num_samples": null,
+    "collect_data_save_path": null,
+    "load_model_path": null,
+    "save_model_path": null,
+    "num_tasks": null
+}

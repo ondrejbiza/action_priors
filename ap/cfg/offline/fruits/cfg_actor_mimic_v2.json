@@ -1,0 +1,29 @@
+{
+    "student_config": {
+        "num_actions": 25,
+        "tau": 0.01,
+        "neurons": [256, 256]
+    },
+    "teacher_config": {
+        "num_actions": 25,
+        "dueling": true,
+        "discount": 0.9,
+        "prioritized_replay": false,
+        "prioritized_replay_max_steps": 0,
+        "exploration_steps": 0,
+        "buffer_size": 1
+    },
+    "teacher_load_paths": null,
+    "goals": null,
+    "num_fruits": 5,
+    "tau": 0.01,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0,
+    "epsilon": 0.1,
+    "buffer_size": 100000,
+    "batch_size": 2,
+    "max_steps": 100000,
+    "max_episodes": null,
+    "device": "cuda:1",
+    "student_save_path": null
+}

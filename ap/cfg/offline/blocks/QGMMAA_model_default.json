@@ -1,0 +1,13 @@
+{
+    "QGMMAA_model_config": {
+        "latent_size": 32,
+        "num_components": 10,
+        "beta": 1e-3,
+        "gmm_mu_init_sd": 0.1,
+        "gmm_sigma_init_val": 1.0,
+        "no_encoder_beta_loss": false,
+        "discretize_qs_num_bins": null,
+        "use_softplus": true,
+        "no_sample": false
+    }
+}

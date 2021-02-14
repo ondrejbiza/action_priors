@@ -1,0 +1,8 @@
+{
+    "simulator": "pybullet",
+    "robot": "kuka",
+    "num_processes": 10,
+    "num_samples": 50000,
+    "num_rotations": 8,
+    "save_path": null
+}

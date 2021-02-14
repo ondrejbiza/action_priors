@@ -1,0 +1,7 @@
+{
+    "planner_config": {
+        "pos_noise": 0.0,
+        "rot_noise": 0.0,
+        "random_orientation": false
+    }
+}

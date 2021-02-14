@@ -1,0 +1,10 @@
+{
+    "exp_runner_config": {
+        "device": "cuda:1",
+        "model_load_path": null,
+        "scores_load_path": null,
+        "num_processes": 10,
+        "simulator": "pybullet",
+        "num_eval_episodes": 100
+    }
+}

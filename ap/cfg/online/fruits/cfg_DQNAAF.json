@@ -1,0 +1,28 @@
+{
+    "dqn_config": {
+        "dueling": true,
+        "prioritized_replay": true,
+        "prioritized_replay_max_steps": 100000,
+        "discount": 0.9,
+        "exploration_steps": 80000,
+        "buffer_size": 100000,
+        "init_tau": 1.0,
+        "final_tau": 0.0
+    },
+    "double_learning": true,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.00001,
+    "batch_size": 32,
+    "goal": null,
+    "max_steps": 100000,
+    "max_episodes": null,
+    "target_network": true,
+    "target_network_sync": 5000,
+    "num_fruits": 5,
+    "aaf_path": null,
+    "load_model_path": null,
+    "save_model_path": null,
+    "demonstrate_dqn": false,
+    "device": "cuda:0",
+    "policy": "EPS"
+}

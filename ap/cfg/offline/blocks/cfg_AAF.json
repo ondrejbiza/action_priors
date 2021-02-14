@@ -1,0 +1,22 @@
+{
+    "encoder_learning_rate": 0.001,
+    "encoder_weight_decay": 0.00001,
+    "validation_fraction": 0.05,
+    "batch_size": 50,
+    "num_training_steps": 10000,
+
+    "load_path": null,
+    "plot_dataset_examples": false,
+    "plot_prediction_examples": false,
+    "plot_results": false,
+    "animate_latent": false,
+    "device": "cuda:0",
+    "model_save_path": null,
+    "model_load_path": null,
+    "limit": null,
+    "ignore_list": null,
+    "pos_amb_labels_load_path": null,
+    "use_amb_labels": false,
+
+    "balance_loss": false
+}
