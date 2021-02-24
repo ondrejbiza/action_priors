@@ -1,7 +1,7 @@
 # Action Priors for Large Action Spaces in Robotics
 
 This repository contains the source code for [Action Priors for Large Action Spaces in Robotics](https://arxiv.org/abs/2101.04178).
-Our implementation uses PyTorch for neural nets and PyBullet for robotic simulation.
+Our implementation uses PyTorch for neural nets and PyBullet for robotic simulation. See [helping_hands_rl_envs](https://github.com/ColinKohler/helping_hands_rl_envs) (also included in ap/helping_hands_rl_envs) for our PyBullet environments.
 
 ![Image of our simulated block stacking setup](images/robot.png)
 
